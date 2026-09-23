@@ -1,0 +1,179 @@
+{
+  "title": "КорТон",
+  "shortTitle": "Кортон",
+  "description": "ул. М.К. Тихонравова, 4Б, микрорайон Юбилейный, Королёв",
+  "address": "ул. М.К. Тихонравова, 4Б, микрорайон Юбилейный, Королёв",
+  "fullAddress": "Московская область, Королёв, микрорайон Юбилейный, улица М.К. Тихонравова, 4Б",
+  "categories": [
+    "Тонирование автостёкол",
+    "оклейка машин",
+    "детейлинг"
+  ],
+  "phones": [
+    {
+      "number": "+7 (925) 064-77-83",
+      "type": "phone",
+      "value": "+79250647783"
+    }
+  ],
+  "workingTimeText": "пн-сб 09:00–19:00",
+  "ratingData": {
+    "ratingCount": 125,
+    "ratingValue": 5,
+    "reviewCount": 87
+  },
+  "urls": [
+    "https://real-top.clients.site/"
+  ],
+  "socialLinks": [
+    {
+      "type": "vkontakte",
+      "href": "https://vk.ru/id1113067211",
+      "readableHref": "vk.ru/id1113067211"
+    }
+  ],
+  "features": [
+    {
+      "name": "антикор",
+      "value": true
+    },
+    {
+      "name": "посещение с животными",
+      "value": [
+        {
+          "id": "allowed_with_all_animals",
+          "name": "разрешено со всеми животными"
+        }
+      ]
+    },
+    {
+      "name": null,
+      "value": true
+    },
+    {
+      "name": "предварительная запись",
+      "value": true
+    },
+    {
+      "name": null,
+      "value": true
+    },
+    {
+      "name": "полировка",
+      "value": true
+    },
+    {
+      "name": "туалет для людей с инвалидностью",
+      "value": true
+    },
+    {
+      "name": "химчистка салона",
+      "value": true
+    },
+    {
+      "name": "доступность входа на инвалидной коляске",
+      "value": [
+        {
+          "id": "full_access",
+          "name": "доступно"
+        }
+      ]
+    },
+    {
+      "name": "способ оплаты",
+      "value": [
+        {
+          "id": "cash",
+          "name": "наличными"
+        },
+        {
+          "id": "wire_transfer",
+          "name": "банковским переводом"
+        },
+        {
+          "id": "payment_card",
+          "name": "оплата картой"
+        }
+      ]
+    },
+    {
+      "name": "Оплата картой",
+      "value": true
+    },
+    {
+      "name": "парковка",
+      "value": true
+    },
+    {
+      "name": "акции",
+      "value": [
+        {
+          "id": "special_offers",
+          "name": "спецпредложения"
+        }
+      ]
+    },
+    {
+      "name": "парковка для людей с инвалидностью",
+      "value": true
+    },
+    {
+      "name": "антигравийная пленка",
+      "value": true
+    },
+    {
+      "name": "удаление вмятин без покраски",
+      "value": true
+    },
+    {
+      "name": null,
+      "value": true
+    },
+    {
+      "name": "Можно с собакой",
+      "value": true
+    },
+    {
+      "name": "бронирование фар",
+      "value": true
+    },
+    {
+      "name": "Wi-Fi",
+      "value": true
+    },
+    {
+      "name": "предпродажная подготовка",
+      "value": true
+    },
+    {
+      "name": "доступность помещения на инвалидной коляске",
+      "value": [
+        {
+          "id": "wheelchair_accessible_a",
+          "name": "доступно"
+        }
+      ]
+    },
+    {
+      "name": "озонирование",
+      "value": true
+    },
+    {
+      "name": "автовинил",
+      "value": true
+    }
+  ],
+  "photos_count": 10,
+  "photo_samples": [
+    "https://avatars.mds.yandex.net/get-altay/19539707/2a0000019ddd63dc11ae6fa05b0ed1440e3a/L_height",
+    "https://avatars.mds.yandex.net/get-altay/17677530/2a0000019ddd6382a85a6dc9281df6712699/L_height",
+    "https://avatars.mds.yandex.net/get-altay/14813057/2a00000195d161d881242187243bceb41612/L_height",
+    "https://avatars.mds.yandex.net/get-altay/15417312/2a00000196d84efeab71205f951868b3f658/L_height",
+    "https://avatars.mds.yandex.net/get-altay/15289836/2a00000196d8448393adf981bf666951b99b/L_height",
+    "https://avatars.mds.yandex.net/get-altay/16341471/2a0000019cb27f0849a5ac6dcd7541676e2c/L_height",
+    "https://avatars.mds.yandex.net/get-altay/18101536/2a0000019cb27e41b5069132aa189c214db0/L_height",
+    "https://avatars.mds.yandex.net/get-altay/15457874/2a000001963845c45dc418061bb83885fafe/L_height",
+    "https://avatars.mds.yandex.net/get-altay/19082209/2a0000019cc1df0f1b3dbfef7996a846bade/L_height",
+    "https://avatars.mds.yandex.net/get-altay/18141736/2a0000019cb27d2b7d152604308de12b179f/L_height"
+  ]
+}

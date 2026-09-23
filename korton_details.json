@@ -1,0 +1,1297 @@
+{
+  "type": "business",
+  "requestId": "1790160855576582-767037085-addrs-upper-yp-78",
+  "index": 0,
+  "analyticsId": "0",
+  "title": "КорТон",
+  "description": "ул. М.К. Тихонравова, 4Б, микрорайон Юбилейный, Королёв",
+  "address": "ул. М.К. Тихонравова, 4Б, микрорайон Юбилейный, Королёв",
+  "coordinates": [
+    37.826706,
+    55.929107
+  ],
+  "displayCoordinates": [
+    37.826706,
+    55.929107
+  ],
+  "bounds": [
+    [
+      37.82255,
+      55.926832
+    ],
+    [
+      37.830761,
+      55.931442
+    ]
+  ],
+  "uri": "ymapsbm1://org?oid=46634651770",
+  "logId": "dHlwZT1iaXpmaW5kZXI7aWQ9NDY2MzQ2NTE3NzA=",
+  "requestSerpId": "1790160855576582-767037085-addrs-upper-yp-78",
+  "id": "46634651770",
+  "metro": [],
+  "stops": [
+    {
+      "id": "stop__10095109",
+      "name": "Улица Комитетский Лес",
+      "distance": "62 м",
+      "distanceValue": 62.7105,
+      "coordinates": [
+        37.827317787,
+        55.929049049
+      ],
+      "type": "common"
+    },
+    {
+      "id": "stop__9679191",
+      "name": "Болшевское шоссе",
+      "distance": "430 м",
+      "distanceValue": 432.534,
+      "coordinates": [
+        37.825754564,
+        55.932535104
+      ],
+      "type": "common"
+    },
+    {
+      "id": "stop__9673759",
+      "name": "Улица Тихонравова",
+      "distance": "870 м",
+      "distanceValue": 867.728,
+      "coordinates": [
+        37.828867903,
+        55.935391906
+      ],
+      "type": "common"
+    },
+    {
+      "id": "stop__9684718",
+      "name": "Садовая улица",
+      "distance": "900 м",
+      "distanceValue": 901.084,
+      "coordinates": [
+        37.817406408,
+        55.930593979
+      ],
+      "type": "common"
+    },
+    {
+      "id": "stop__9688737",
+      "name": "Станция Подлипки",
+      "distance": "940 м",
+      "distanceValue": 938.903,
+      "coordinates": [
+        37.816880009,
+        55.925839569
+      ],
+      "type": "common"
+    }
+  ],
+  "photos": {
+    "count": 117,
+    "urlTemplate": "https://avatars.mds.yandex.net/get-altay/19539707/2a0000019ddd63dc11ae6fa05b0ed1440e3a/%s",
+    "items": [
+      {
+        "urlTemplate": "https://avatars.mds.yandex.net/get-altay/19539707/2a0000019ddd63dc11ae6fa05b0ed1440e3a/%s",
+        "alt": "Тонирование автостёкол КорТон, Королёв, фото"
+      },
+      {
+        "urlTemplate": "https://avatars.mds.yandex.net/get-altay/17677530/2a0000019ddd6382a85a6dc9281df6712699/%s",
+        "alt": "Тонирование автостёкол КорТон, Королёв, фото"
+      },
+      {
+        "urlTemplate": "https://avatars.mds.yandex.net/get-altay/14813057/2a00000195d161d881242187243bceb41612/%s",
+        "alt": "Тонирование автостёкол КорТон, Королёв, фото"
+      },
+      {
+        "urlTemplate": "https://avatars.mds.yandex.net/get-altay/15417312/2a00000196d84efeab71205f951868b3f658/%s",
+        "alt": "Тонирование автостёкол КорТон, Королёв, фото"
+      },
+      {
+        "urlTemplate": "https://avatars.mds.yandex.net/get-altay/15289836/2a00000196d8448393adf981bf666951b99b/%s",
+        "alt": "Тонирование автостёкол КорТон, Королёв, фото"
+      },
+      {
+        "urlTemplate": "https://avatars.mds.yandex.net/get-altay/16341471/2a0000019cb27f0849a5ac6dcd7541676e2c/%s",
+        "alt": "Тонирование автостёкол КорТон, Королёв, фото"
+      },
+      {
+        "urlTemplate": "https://avatars.mds.yandex.net/get-altay/18101536/2a0000019cb27e41b5069132aa189c214db0/%s",
+        "alt": "Тонирование автостёкол КорТон, Королёв, фото"
+      },
+      {
+        "urlTemplate": "https://avatars.mds.yandex.net/get-altay/15457874/2a000001963845c45dc418061bb83885fafe/%s",
+        "alt": "Тонирование автостёкол КорТон, Королёв, фото"
+      },
+      {
+        "urlTemplate": "https://avatars.mds.yandex.net/get-altay/19082209/2a0000019cc1df0f1b3dbfef7996a846bade/%s",
+        "alt": "Тонирование автостёкол КорТон, Королёв, фото"
+      },
+      {
+        "urlTemplate": "https://avatars.mds.yandex.net/get-altay/18141736/2a0000019cb27d2b7d152604308de12b179f/%s",
+        "alt": "Тонирование автостёкол КорТон, Королёв, фото"
+      }
+    ]
+  },
+  "entrances": [
+    {
+      "coordinates": [
+        37.82672999,
+        55.92914606
+      ],
+      "azimuth": 64.75402613007395,
+      "tilt": 0
+    }
+  ],
+  "routePoint": {
+    "context": "djJ8ChQKEgkR1s5J0ulCQBEhdBJC7vZLQBIqChIJknGU1dfpQkARyxtYdfP2S0ASDTQ2NjM0NjUxNzcwXzAdAACAPyAU"
+  },
+  "panorama": {
+    "id": "1299389028_671364234_23_1782297921",
+    "direction": [
+      -126.9,
+      10
+    ],
+    "point": {
+      "type": "Point",
+      "coordinates": [
+        37.8270605346,
+        55.9292561372
+      ]
+    },
+    "preview": "https://static-pano.maps.yandex.ru/v1/?panoid=1299389028_671364234_23_1782297921&size=500%2C240&azimuth=-126.9&tilt=10&api_key=maps&signature=zn3UYz6Vuwbf0fEHYrPfJ0kEfsIt01_7VSeV2bveWzg=",
+    "alt": "Панорама — тонирование автостёкол КорТон, Королёв"
+  },
+  "shortTitle": "Кортон",
+  "fullAddress": "Московская область, Королёв, микрорайон Юбилейный, улица М.К. Тихонравова, 4Б",
+  "country": "Россия",
+  "postalCode": "141092",
+  "status": "open",
+  "businessLinks": [],
+  "ratingData": {
+    "ratingCount": 125,
+    "ratingValue": 5,
+    "reviewCount": 87
+  },
+  "sources": [
+    {
+      "id": "yandex",
+      "name": "Яндекс",
+      "href": "https://ya.ru/"
+    }
+  ],
+  "categories": [
+    {
+      "id": "184105258",
+      "name": "Тонирование автостёкол",
+      "class": "auto",
+      "seoname": "car_window_tinting",
+      "pluralName": "Тонировка авто"
+    },
+    {
+      "id": "184074231588",
+      "name": "оклейка машин",
+      "class": "auto",
+      "seoname": "car_wrapping",
+      "pluralName": "Оклейка машин"
+    },
+    {
+      "id": "9561111444",
+      "name": "детейлинг",
+      "class": "auto",
+      "seoname": "auto_detailing",
+      "pluralName": "Детейлинг"
+    }
+  ],
+  "phones": [
+    {
+      "number": "+7 (925) 064-77-83",
+      "type": "phone",
+      "value": "+79250647783"
+    }
+  ],
+  "features": [
+    {
+      "id": "anti_corrosion_treatment",
+      "value": true,
+      "name": "антикор",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "petfriendly",
+      "value": [
+        {
+          "id": "allowed_with_all_animals",
+          "name": "разрешено со всеми животными"
+        }
+      ],
+      "name": "посещение с животными",
+      "type": "enum",
+      "important": false
+    },
+    {
+      "id": "street_entrance",
+      "value": true,
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "preliminary_registration",
+      "value": true,
+      "name": "предварительная запись",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "show_briefly_about_the_place_block",
+      "value": true,
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "car_polishing",
+      "value": true,
+      "name": "полировка",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "toilet_for_disabled",
+      "value": true,
+      "name": "туалет для людей с инвалидностью",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "car_valeting",
+      "value": true,
+      "name": "химчистка салона",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "wheelchair_access",
+      "value": [
+        {
+          "id": "full_access",
+          "name": "доступно"
+        }
+      ],
+      "name": "доступность входа на инвалидной коляске",
+      "type": "enum",
+      "important": false
+    },
+    {
+      "id": "payment_method",
+      "value": [
+        {
+          "id": "cash",
+          "name": "наличными"
+        },
+        {
+          "id": "wire_transfer",
+          "name": "банковским переводом"
+        },
+        {
+          "id": "payment_card",
+          "name": "оплата картой"
+        }
+      ],
+      "name": "способ оплаты",
+      "type": "enum",
+      "important": false
+    },
+    {
+      "id": "payment_by_credit_card",
+      "value": true,
+      "name": "Оплата картой",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "car_park",
+      "value": true,
+      "name": "парковка",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "promotions",
+      "value": [
+        {
+          "id": "special_offers",
+          "name": "спецпредложения"
+        }
+      ],
+      "name": "акции",
+      "type": "enum",
+      "important": false
+    },
+    {
+      "id": "parking_disabled",
+      "value": true,
+      "name": "парковка для людей с инвалидностью",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "anti_gravity_film",
+      "value": true,
+      "name": "антигравийная пленка",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "removing_dents_without_painting",
+      "value": true,
+      "name": "удаление вмятин без покраски",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "wheelchair_accessability",
+      "value": true,
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "Possible_with_dog",
+      "value": true,
+      "name": "Можно с собакой",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "armoring_headlights",
+      "value": true,
+      "name": "бронирование фар",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "wi_fi",
+      "value": true,
+      "name": "Wi-Fi",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "pre_sale_preparation",
+      "value": true,
+      "name": "предпродажная подготовка",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "wheelchair_accessible_vocabulary",
+      "value": [
+        {
+          "id": "wheelchair_accessible_a",
+          "name": "доступно"
+        }
+      ],
+      "name": "доступность помещения на инвалидной коляске",
+      "type": "enum",
+      "important": false
+    },
+    {
+      "id": "ozonation",
+      "value": true,
+      "name": "озонирование",
+      "type": "bool",
+      "important": false
+    },
+    {
+      "id": "autovinil",
+      "value": true,
+      "name": "автовинил",
+      "type": "bool",
+      "important": false
+    }
+  ],
+  "mediaOrderTemplate": "p,v,p,v,v,p,v*,p*",
+  "featureGroups": [
+    {
+      "name": "Доступность",
+      "featureIds": [
+        "wheelchair_accessability",
+        "elevator_wheelchair_accessible",
+        "ramp",
+        "wheelchair_access",
+        "call_button",
+        "toilet_for_disabled",
+        "parking_disabled",
+        "wheelchair_accessible_vocabulary"
+      ]
+    }
+  ],
+  "businessProperties": {
+    "has_verified_owner": true
+  },
+  "seoname": "korton",
+  "geoId": 21620,
+  "compositeAddress": {
+    "country": "Россия",
+    "area": "городской округ Королёв",
+    "locality": "Королёв",
+    "street": "улица М.К. Тихонравова",
+    "house": "4Б"
+  },
+  "modularCard": {
+    "showClaimOrganization": true,
+    "showTaxiButton": true,
+    "showFeedbackButton": true,
+    "showReviews": true,
+    "showAddPhotoButton": true,
+    "showCompetitors": true,
+    "showDirectBanner": true,
+    "showAdditionalAds": true,
+    "showWorkHours": true,
+    "showContacts": true,
+    "showFriendsLiked": false,
+    "showVisualPricesTab": false,
+    "showHotelEnrichment": false,
+    "promoBadgeFeature": [],
+    "offerBadgeId": [],
+    "showCourierButton": false,
+    "hotelReviewsStubType": 0
+  },
+  "modularPin": {
+    "subtitleHints": [
+      {
+        "text": "5",
+        "type": "RATING",
+        "properties": null
+      },
+      {
+        "text": "Открыто до 19:00",
+        "type": "WORKING_HOURS",
+        "properties": {
+          "workingHours": {
+            "shortText": "До 19:00",
+            "isOpen": true
+          }
+        }
+      }
+    ],
+    "allowMultilineSubtitle": false
+  },
+  "modularSnippet": {
+    "showNeurosummary": false,
+    "showMentionedOnSite": false,
+    "showTitle": "LONG_TITLE",
+    "showAddress": "SHORT_ADDRESS",
+    "showCategory": "SINGLE_CATEGORY",
+    "showRating": "FIVE_STAR_RATING",
+    "showPhoto": "LOGO",
+    "showWorkHours": false,
+    "showVerified": false,
+    "showDistanceFromTransit": false,
+    "showBookmark": false,
+    "showEta": false,
+    "showGeoproductOffer": false,
+    "subtitleHint": [],
+    "galleryButton": [
+      "PRICES"
+    ],
+    "shownGoodsNumber": 3,
+    "showDescription": false,
+    "showCollectionBadge": true,
+    "showFriendsLiked": false,
+    "showCourierButton": false,
+    "showYandexEatsOrderButton": false,
+    "infoBlock": [],
+    "serpActionButtons": [
+      6,
+      1,
+      3,
+      5,
+      0
+    ],
+    "awards": [],
+    "promoBadgeFeature": [],
+    "offerBadgeId": [],
+    "showHotelEnrichment": false
+  },
+  "tzOffset": 10800,
+  "workingTimeText": "пн-сб 09:00–19:00",
+  "workingTime": [
+    null,
+    [
+      {
+        "from": {
+          "hours": 9,
+          "minutes": 0
+        },
+        "to": {
+          "hours": 19,
+          "minutes": 0
+        }
+      }
+    ],
+    [
+      {
+        "from": {
+          "hours": 9,
+          "minutes": 0
+        },
+        "to": {
+          "hours": 19,
+          "minutes": 0
+        }
+      }
+    ],
+    [
+      {
+        "from": {
+          "hours": 9,
+          "minutes": 0
+        },
+        "to": {
+          "hours": 19,
+          "minutes": 0
+        }
+      }
+    ],
+    [
+      {
+        "from": {
+          "hours": 9,
+          "minutes": 0
+        },
+        "to": {
+          "hours": 19,
+          "minutes": 0
+        }
+      }
+    ],
+    [
+      {
+        "from": {
+          "hours": 9,
+          "minutes": 0
+        },
+        "to": {
+          "hours": 19,
+          "minutes": 0
+        }
+      }
+    ],
+    [
+      {
+        "from": {
+          "hours": 9,
+          "minutes": 0
+        },
+        "to": {
+          "hours": 19,
+          "minutes": 0
+        }
+      }
+    ]
+  ],
+  "currentWorkingStatus": {
+    "isOpenNow": true,
+    "text": "Открыто до 19:00",
+    "shortText": "До 19:00",
+    "tag": []
+  },
+  "socialLinks": [
+    {
+      "type": "vkontakte",
+      "href": "https://vk.ru/id1113067211",
+      "readableHref": "vk.ru/id1113067211"
+    }
+  ],
+  "urls": [
+    "https://real-top.clients.site/"
+  ],
+  "businessImages": {
+    "logo": {
+      "urlTemplate": "https://avatars.mds.yandex.net/get-altay/14837019/2a000001968084bca1c13b61c04efa21c797/%s",
+      "tag": [
+        "owner_photo"
+      ],
+      "id": "2a000001968084bca1c13b61c04efa21c797"
+    }
+  },
+  "references": [
+    {
+      "id": "6737985334",
+      "scope": "nyak"
+    }
+  ],
+  "subtitleItems": [
+    {
+      "type": "working_hours",
+      "text": "До 19:00",
+      "property": [
+        {
+          "key": "is_open",
+          "value": "1"
+        },
+        {
+          "key": "short_text",
+          "value": "До 19:00"
+        },
+        {
+          "key": "text",
+          "value": "Открыто до 19:00"
+        }
+      ]
+    },
+    {
+      "type": "rating",
+      "text": "10",
+      "property": [
+        {
+          "key": "value",
+          "value": "10"
+        },
+        {
+          "key": "value_5",
+          "value": "5"
+        }
+      ]
+    }
+  ],
+  "metrika": {
+    "counter": 96705157,
+    "goals": {
+      "call": "make-call",
+      "cta": "cta-button",
+      "route": "make-route",
+      "site": "site",
+      "whatsapp": "whatsapp",
+      "telegram": "telegram",
+      "viber": "viber",
+      "vkontakte": "vkontakte",
+      "youtube": "social-youtube",
+      "odnoklassniki": "social-odnoklassniki",
+      "instagram": "instagram_subscribe",
+      "stories": "stories-button",
+      "taxi": "call-taxi",
+      "booking": "booking",
+      "subscribe": "subscribe",
+      "send-to-phone": "send-to-phone",
+      "booking-open": "booking-open",
+      "share": "share",
+      "booking-confirmed": "booking-confirmed",
+      "booking-visited": "booking-visited",
+      "start-route": "start-route",
+      "visited-organization": "visited-organization"
+    }
+  },
+  "routeToChoose": [
+    {
+      "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/twoGis_logo.f6efe2e1.png",
+      "label": "2ГИС",
+      "route-types": {
+        "auto": "car",
+        "bus": "bus",
+        "walking": "pedestrian"
+      },
+      "route-url-template": "https://2gis.ru/directions/tab/{routeTypeParam}/points/{fromParam}|{toParam}&utm_from=route",
+      "search-text-url-template": "https://2gis.ru/search/{encodedText}",
+      "service": "2gis"
+    },
+    {
+      "icon-url": "https://yastatic.net/s3/web4static/_/v2/static/media/yandex_logo.c2cc5125.png",
+      "label": "Яндекс Карты",
+      "route-types": {
+        "auto": "auto",
+        "bus": "mt",
+        "walking": "pd"
+      },
+      "route-url-template": "https://maps.yandex.ru/?mode=routes&rtext={fromParam}~{toParam}&rtt={routeTypeParam}&source=wizbiz_new_map_single&utm_source=yandex&utm_medium=wizbiz_map&utm_campaign=route",
+      "search-text-url-template": "https://yandex.ru/maps/?mode=search&text={encodedText}",
+      "service": "yandex_maps"
+    }
+  ],
+  "topObjects": {
+    "hasPhotos": false,
+    "isYandexEda": false,
+    "rubric": "auto",
+    "categories": [
+      {
+        "categoryName": "popular",
+        "categoryItems": [
+          {
+            "title": "полировка",
+            "description": "полировка авто качество и приемлемые цены",
+            "price": "1000",
+            "volume": "1 см³",
+            "currency": "₽"
+          },
+          {
+            "title": "шумоизоляция",
+            "description": "шумоизоляция для Вашего авто. Эта услуга подарит Вам комфорт при езде",
+            "price": "1000",
+            "volume": "1 шт.",
+            "currency": "₽"
+          },
+          {
+            "title": "химчистка салона",
+            "description": "химчистка салона вашего авто",
+            "price": "1000",
+            "volume": "1 шт.",
+            "currency": "₽"
+          }
+        ]
+      }
+    ],
+    "fullObjectsCount": 3,
+    "relevance": {
+      "lastUploadTime": "2026-09-21T23:36:44.165642Z",
+      "lastUpdateTime": "2026-03-19T11:00:34.045951Z"
+    },
+    "source": {
+      "id": "TYCOON",
+      "name": "Представитель организации"
+    }
+  },
+  "parentRubrics": [
+    184105238,
+    184105240
+  ],
+  "hasStories": false,
+  "aspects": [
+    {
+      "id": "3502044050",
+      "isTrusted": true,
+      "text": "Персонал",
+      "count": 54,
+      "positive": 47,
+      "neutral": 6,
+      "negative": 1,
+      "photos": [
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/16341471/2a0000019cb27f0849a5ac6dcd7541676e2c/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/15032884/2a00000196d8460b6a9835d4bc067e9d1d3f/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/18150755/2a0000019cb27d6fc8c39731111ce9eb7858/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/18101536/2a0000019cb27e41b5069132aa189c214db0/%",
+          "mds_namespace": "altay"
+        }
+      ]
+    },
+    {
+      "id": "3502107489",
+      "isTrusted": true,
+      "text": "Тонировка стекол",
+      "count": 44,
+      "positive": 42,
+      "neutral": 0,
+      "negative": 2,
+      "photos": [
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/5234599/2a000001814272e464323a89b6671cb0c2c3/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/16136925/2a000001995db311befa20cdbc59ab006238/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/14272474/2a000001967d0ad4b353d2ac61c616b950f5/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/5106183/2a0000017b48e7cd2b9554ddd11c271734ee/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/15346589/2a0000019681eb90232ef9de2d0a548aaea8/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/9737178/2a0000018bf109ccb1130d6502b0c6e88214/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/14599414/2a0000019546c371f0ce1b82155b743cf722/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/14868744/2a00000196d8445e9fc07893c5745608ea7c/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/15344725/2a000001995db2f5cd82c670d4379828affe/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/4824927/2a0000017c3b2d12287ecec58f6981ded066/%",
+          "mds_namespace": "altay"
+        }
+      ]
+    },
+    {
+      "id": "3502044686",
+      "isTrusted": true,
+      "text": "Время ожидания",
+      "count": 37,
+      "positive": 36,
+      "neutral": 0,
+      "negative": 1,
+      "photos": []
+    },
+    {
+      "id": "3502107510",
+      "isTrusted": true,
+      "text": "Тюнинг",
+      "count": 30,
+      "positive": 30,
+      "neutral": 0,
+      "negative": 0,
+      "photos": [
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/18101536/2a0000019cb27e41b5069132aa189c214db0/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/18150755/2a0000019cb27d6fc8c39731111ce9eb7858/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/16341471/2a0000019cb27f0849a5ac6dcd7541676e2c/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/18141736/2a0000019cb27d2b7d152604308de12b179f/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/20244164/2a0000019feb6f1bddb36615c99194250f4f/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/4257799/2a0000017c3b2f411e200fcdee53b0fc0c58/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/6236655/2a00000183ac6896f95ea027b958f350bc72/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/21086492/2a000001a0471bf452bd1a04bcb3ab45f2c9/%",
+          "mds_namespace": "altay"
+        }
+      ]
+    },
+    {
+      "id": "3502124887",
+      "isTrusted": true,
+      "text": "Ремонт",
+      "count": 22,
+      "positive": 21,
+      "neutral": 0,
+      "negative": 1,
+      "photos": [
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/18150755/2a0000019cb27d6fc8c39731111ce9eb7858/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/18101536/2a0000019cb27e41b5069132aa189c214db0/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/21086492/2a000001a0471bf452bd1a04bcb3ab45f2c9/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/18141736/2a0000019cb27d2b7d152604308de12b179f/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/15032884/2a00000196d8460b6a9835d4bc067e9d1d3f/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/16379675/2a0000019bd6d36b1117d400bef4b3a2ddd0/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/6236655/2a00000183ac6896f95ea027b958f350bc72/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/16341471/2a0000019cb27f0849a5ac6dcd7541676e2c/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/16325379/2a0000019bd6d3831fedf047953834ab416c/%",
+          "mds_namespace": "altay"
+        },
+        {
+          "link": "https://avatars.mds.yandex.net/get-altay/14837019/2a00000196d83cb72dbba3312e371f144faa/%",
+          "mds_namespace": "altay"
+        }
+      ]
+    }
+  ],
+  "videos": {
+    "items": [
+      {
+        "id": "vplv4jkb2dljhqwla5ti",
+        "videoUrl": "https://runtime.strm.yandex.ru/player/video/vplv4jkb2dljhqwla5ti",
+        "thumbnailUrl": "https://avatars.mds.yandex.net/get-vh/6523596/2a00000195d16391840c00c0d1eb464404ab/orig",
+        "tags": [
+          {
+            "id": "hardcoded-video",
+            "name": "Видео"
+          }
+        ],
+        "height": 480,
+        "width": 848
+      },
+      {
+        "id": "vplviqacu54hyhn54uyc",
+        "videoUrl": "https://runtime.strm.yandex.ru/player/video/vplviqacu54hyhn54uyc",
+        "thumbnailUrl": "https://avatars.mds.yandex.net/get-vh/5104635/2a00000196d83c2a7132403f0447e5a36ea9/orig",
+        "tags": [
+          {
+            "id": "hardcoded-video",
+            "name": "Видео"
+          }
+        ],
+        "height": 464,
+        "width": 848
+      },
+      {
+        "id": "vplv4lzgjmmjn2fjvsf5",
+        "videoUrl": "https://runtime.strm.yandex.ru/player/video/vplv4lzgjmmjn2fjvsf5",
+        "thumbnailUrl": "https://avatars.mds.yandex.net/get-vh/5128299/2a00000196d84deff46019f482a452151d76/orig",
+        "tags": [
+          {
+            "id": "hardcoded-video",
+            "name": "Видео"
+          }
+        ],
+        "height": 464,
+        "width": 848
+      },
+      {
+        "id": "vplvlomkquok4d2plren",
+        "videoUrl": "https://runtime.strm.yandex.ru/player/video/vplvlomkquok4d2plren",
+        "thumbnailUrl": "https://avatars.mds.yandex.net/get-vh/4715594/2a000001905886d8d6cd9dd0bdd105f92123/orig",
+        "tags": [
+          {
+            "id": "hardcoded-video",
+            "name": "Видео"
+          }
+        ],
+        "height": 3840,
+        "width": 2160
+      }
+    ]
+  },
+  "needSimilarOrgsRequest": true,
+  "needCompetitorRequest": true,
+  "region": {
+    "id": 20728,
+    "type": 6,
+    "capitalId": 0,
+    "hierarchy": [
+      225,
+      1,
+      20728
+    ],
+    "seoname": "korolev",
+    "bounds": [
+      [
+        37.738292,
+        55.87197506623705
+      ],
+      [
+        37.892128,
+        55.965878066237046
+      ]
+    ],
+    "longitude": 37.81521,
+    "latitude": 55.918955,
+    "zoom": 14,
+    "names": {
+      "ablative": "",
+      "accusative": "Королёв",
+      "dative": "Королеву",
+      "directional": "",
+      "genitive": "Королёва",
+      "instrumental": "Королёвом",
+      "locative": "",
+      "nominative": "Королёв",
+      "preposition": "в",
+      "prepositional": "Королёве"
+    }
+  },
+  "breadcrumbs": [
+    {
+      "name": "Карты",
+      "type": "root",
+      "url": "https://yandex.ru/maps/"
+    },
+    {
+      "name": "Королёв",
+      "type": "region",
+      "url": "https://yandex.ru/maps/20728/korolev/",
+      "region": {
+        "center": [
+          37.81521,
+          55.918955
+        ],
+        "zoom": 14
+      }
+    },
+    {
+      "category": {
+        "id": "184105258",
+        "name": "Тонирование автостёкол",
+        "class": "auto",
+        "seoname": "car_window_tinting",
+        "pluralName": "Тонировка авто"
+      },
+      "name": "Тонировка авто",
+      "type": "category",
+      "url": "https://yandex.ru/maps/20728/korolev/category/car_window_tinting/184105258/"
+    }
+  ],
+  "reviewResults": {
+    "reviews": [
+      {
+        "reviewId": "_eZlQ1zNe86h_d1rV2RafxFdJjFIoow",
+        "businessId": "46634651770",
+        "author": {
+          "name": "Ксения Ухналева",
+          "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/51169/0c-5/{size}",
+          "professionLevel": "Знаток города 3 уровня",
+          "rtb": "Знаток города 3 уровня",
+          "rtbType": "PROFESSION",
+          "publicId": "drq0p77jmqekkxzg2ne7n4r1fw",
+          "achievements": [],
+          "professions": [],
+          "isSubscribed": false
+        },
+        "text": "Обратилась в студию с вопросом оклейки автомобиля бронепленкой по рекомендации знакомых.На предварительном осмотре машины администратор Александр рассказал и показал как происходит процесс работы. Остановились на оклейке Зон риска и тонировке задних стекол. Работу сделал за 2 дня, можно приехать в любой момент, посмотреть процесс работы или попросить фотографии. По качеству вопросов не возникло. Есть гарантия, целом ребята знают свое дело, буду рекомендовать! Спасибо!",
+        "textLanguage": "ru",
+        "textTranslations": {
+          "tr": "Tanıdıkların tavsiyesi üzerine arabayı zırhlı filmle yapıştırma konusuyla stüdyoya döndüm.Makinenin ön muayenesinde, yönetici Alexander iş sürecinin nasıl gerçekleştiğini anlattı ve gösterdi. Risk alanlarını yapıştırmaya ve arka camları renklendirmeye karar verdik. İşi 2 günde yaptım, istediğiniz zaman gelebilir, iş sürecini görebilir veya fotoğraf isteyebilirsiniz. Kaliteyle ilgili hiçbir soru sorulmadı. Bir garanti var, genel olarak çocuklar işlerini biliyorlar, tavsiye edeceğim! Teşekkür ederiz!"
+        },
+        "rating": 5,
+        "updatedTime": "2026-05-01T18:18:19.211Z",
+        "reactions": {
+          "likes": 1,
+          "dislikes": 0,
+          "userReaction": "NONE"
+        },
+        "photos": [],
+        "videos": [],
+        "pinned": false
+      },
+      {
+        "reviewId": "Qt-6gbE8Liu2U1ZQETy68Te-4PVZAoi",
+        "businessId": "46634651770",
+        "author": {
+          "name": "Дмитрий",
+          "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/27503/0u-9/{size}",
+          "professionLevel": "Знаток города 2 уровня",
+          "rtb": "Знаток города 2 уровня",
+          "rtbType": "PROFESSION",
+          "publicId": "d0g8p0f94dd5mhwdcy8vnd9g9m",
+          "achievements": [],
+          "professions": [],
+          "isSubscribed": false
+        },
+        "text": "Обратился по поводу закатки защитной пленкой всех зон риска.Всё сделали быстро и качественно, ребята мастера своего дела и доброжелательные.Теперь буду обслуживаться здесь.Сделаю ещё тонер «хамелеон».На соседней машине делали, мне понравилось, красиво.",
+        "textLanguage": "ru",
+        "textTranslations": {
+          "tr": "Tüm risk alanlarının koruyucu filmle dikilmesi hakkında konuştum.Her şeyi yaptık, hızlı ve verimli, çocuklar onların zanaat ustaları ve güler yüzlü.Şimdi burada servis edileceğim.Yapacağım başka bir toner «bukalemun».Komşu bir makine yaptım, ben sevdim, güzel."
+        },
+        "rating": 5,
+        "updatedTime": "2026-05-30T13:25:31.105Z",
+        "reactions": {
+          "likes": 0,
+          "dislikes": 0,
+          "userReaction": "NONE"
+        },
+        "photos": [],
+        "videos": [],
+        "pinned": false
+      },
+      {
+        "reviewId": "laWf7otFEWPkM-1wtL9yPiDfopzUljQD",
+        "businessId": "46634651770",
+        "author": {
+          "name": "Андрей Б.",
+          "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/36777/1SJXes8GoMf95DA14P8z9g3ctP8-1/{size}",
+          "professionLevel": "Знаток города 5 уровня",
+          "rtb": "Знаток города 5 уровня",
+          "rtbType": "PROFESSION",
+          "publicId": "ded4xb4ny00j9gy3z9ygbue9z0",
+          "achievements": [],
+          "professions": [],
+          "isSubscribed": false
+        },
+        "text": "Поехал по рекомендации…делал антикор,тонировку,покрытие керамикой,зоны риска,сделали ребята от души. По цене договориться можно,и придти к общему знаменателю,не завышают…",
+        "textLanguage": "ru",
+        "textTranslations": {
+          "tr": "Tavsiye üzerine gittim ... antikorozif, renklendirme, seramik kaplama, risk alanları yaptım, yürekten adamlar yaptım. Fiyat üzerinde anlaşabilir ve ortak paydaya gelebilirsiniz, fazla tahmin etmezler…"
+        },
+        "rating": 5,
+        "updatedTime": "2026-05-22T16:22:27.962Z",
+        "reactions": {
+          "likes": 0,
+          "dislikes": 0,
+          "userReaction": "NONE"
+        },
+        "photos": [
+          {
+            "type": "photo",
+            "id": "18118126_2a0000019e507ee10a92966f0711c3cab152",
+            "businessId": "46634651770",
+            "urlTemplate": "https://avatars.mds.yandex.net/get-altay/18118126/2a0000019e507ee10a92966f0711c3cab152/{size}",
+            "createdTime": 1779466955198,
+            "moderation": {
+              "status": "ACCEPTED"
+            },
+            "showReactions": true,
+            "reactions": {
+              "likes": 0,
+              "dislikes": 0,
+              "userReaction": "NONE"
+            },
+            "copyright": {
+              "name": "Андрей Б.",
+              "publicId": "ded4xb4ny00j9gy3z9ygbue9z0",
+              "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/36777/1SJXes8GoMf95DA14P8z9g3ctP8-1/{size}",
+              "updateTime": 1779466955198,
+              "hasPublicProfile": true,
+              "isSubscribed": false
+            }
+          }
+        ],
+        "videos": [],
+        "pinned": false
+      }
+    ],
+    "params": {
+      "offset": 0,
+      "limit": 3,
+      "count": 87,
+      "loadedReviewsCount": 3,
+      "page": 1,
+      "totalPages": 29,
+      "reviewsRemained": 84
+    },
+    "tags": [],
+    "aspects": [
+      {
+        "text": "Обслуживание",
+        "count": 79,
+        "positive": 76,
+        "negative": 3
+      },
+      {
+        "text": "Персонал",
+        "count": 51,
+        "positive": 45,
+        "negative": 1
+      },
+      {
+        "text": "Тонировка стекол",
+        "count": 43,
+        "positive": 41,
+        "negative": 2
+      },
+      {
+        "text": "Время ожидания",
+        "count": 37,
+        "positive": 36,
+        "negative": 1
+      }
+    ]
+  },
+  "reviewPollData": {
+    "aspects": [
+      "Обслуживание",
+      "Персонал",
+      "Тонировка стекол",
+      "Время ожидания",
+      "Тюнинг",
+      "Ремонт"
+    ]
+  },
+  "a11y": {
+    "hasReviews": false,
+    "photos": [
+      {
+        "id": "urn:yandex:sprav:photo:14033308_2a00000193590d0863ccb244d4542a6f5a51",
+        "tags": [
+          {
+            "id": "Enter",
+            "name": "Вход"
+          },
+          {
+            "id": "Accessibility",
+            "name": "Доступность"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "url": "https://avatars.mds.yandex.net/get-altay/14033308/2a00000193590d0863ccb244d4542a6f5a51/XXXL",
+        "showReactions": true,
+        "copyright": {
+          "name": "КорТон",
+          "updateTime": "2024-11-23T12:44:09Z",
+          "hasUserIcon": true,
+          "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/41409/1Ae6Oz245NU0n31zSm6yfhE0lg-1/{size}",
+          "publicId": "dhjxj4brcg08w6u95d4ujq5n0m"
+        }
+      },
+      {
+        "id": "urn:yandex:sprav:photo:15251677-2a0000019a2fbb1008c11836af1c1045485e",
+        "tags": [
+          {
+            "id": "Enter",
+            "name": "Вход"
+          },
+          {
+            "id": "Accessibility",
+            "name": "Доступность"
+          }
+        ],
+        "width": 720,
+        "height": 960,
+        "url": "https://avatars.mds.yandex.net/get-altay/15251677/2a0000019a2fbb1008c11836af1c1045485e/XXXL",
+        "showReactions": true,
+        "copyright": {
+          "name": "Яндекс",
+          "url": "https://ya.ru/",
+          "updateTime": "2025-10-27T12:55:42Z"
+        }
+      }
+    ]
+  },
+  "geoWhere": {
+    "id": "3758068000",
+    "seoname": "ulitsa_m_k_tikhonravova_4b",
+    "kind": "house",
+    "coordinates": [
+      37.826655,
+      55.929137
+    ],
+    "displayCoordinates": [
+      37.826655,
+      55.929137
+    ],
+    "encodedCoordinates": "Z04YfgVmT0ACQFtvfXVzeH1gYw=="
+  }
+}

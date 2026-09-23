@@ -1,0 +1,37 @@
+{
+  "hasPhotos": false,
+  "rubric": "auto",
+  "categories": [
+    {
+      "categoryName": "Детейлинг",
+      "categoryItems": [
+        {
+          "title": "химчистка салона",
+          "description": "химчистка салона вашего авто",
+          "price": "1000",
+          "volume": "1 шт.",
+          "currency": "₽"
+        },
+        {
+          "title": "шумоизоляция",
+          "description": "шумоизоляция для Вашего авто. Эта услуга подарит Вам комфорт при езде",
+          "price": "1000",
+          "volume": "1 шт.",
+          "currency": "₽"
+        }
+      ]
+    },
+    {
+      "categoryName": "Детейлинг",
+      "categoryItems": [
+        {
+          "title": "полировка",
+          "description": "полировка авто качество и приемлемые цены",
+          "price": "1000",
+          "volume": "1 см³",
+          "currency": "₽"
+        }
+      ]
+    }
+  ]
+}
