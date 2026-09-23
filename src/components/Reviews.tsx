@@ -193,6 +193,13 @@ export const Reviews: React.FC = () => {
                   <img
                     src={review.carPhoto}
                     alt={review.car}
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      if (!target.dataset.triedLocal && review.localPhoto) {
+                        target.dataset.triedLocal = 'true';
+                        target.src = review.localPhoto;
+                      }
+                    }}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-95 group-hover:opacity-100"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />

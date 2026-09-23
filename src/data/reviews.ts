@@ -9,6 +9,7 @@ export interface ReviewItem {
   avatarLetter: string;
   level?: string;
   carPhoto?: string;
+  localPhoto?: string;
 }
 
 export const REVIEWS: ReviewItem[] = [
@@ -22,7 +23,8 @@ export const REVIEWS: ReviewItem[] = [
     service: 'Оклейка зон риска бронепленкой и тонировка',
     text: 'Обратилась в студию с вопросом оклейки автомобиля бронепленкой по рекомендации знакомых. На предварительном осмотре машины администратор Александр рассказал и показал, как происходит процесс работы. Остановились на оклейке Зон риска и тонировке задних стекол. Работу сделал за 2 дня, можно приехать в любой момент, посмотреть процесс работы или попросить фотографии. По качеству вопросов не возникло. Есть гарантия, в целом ребята знают свое дело, буду рекомендовать! Спасибо!',
     avatarLetter: 'К',
-    carPhoto: './photo/korton/korton_1.jpg',
+    carPhoto: 'https://avatars.mds.yandex.net/get-altay/19539707/2a0000019ddd63dc11ae6fa05b0ed1440e3a/L_height',
+    localPhoto: './photo/korton/korton_1.jpg',
   },
   {
     id: 'rev-2',
@@ -34,7 +36,8 @@ export const REVIEWS: ReviewItem[] = [
     service: 'Оклейка нового авто бронепленкой',
     text: 'Приветствую всех! Приобрёл в салоне Джили Монджаро. В салоне мне насоветовали сделать бронеплёнку в подарок, но я отказался в силу того, что предыдущий автомобиль мне оклеили в Кортоне. Александр-администратор проконсультировал меня по поводу качества работ и качества материала (что очень важно!), в чём в последствии я убедился — прежде всего качество, ведь я не бронирую автомобиль на краткосрочную перспективу. Не стал рисковать! Оклеил машину в проверенном месте. Огромное спасибо Александру и его команде! Сделали супер!',
     avatarLetter: 'А',
-    carPhoto: './photo/korton/korton_2.jpg',
+    carPhoto: 'https://avatars.mds.yandex.net/get-altay/17677530/2a0000019ddd6382a85a6dc9281df6712699/L_height',
+    localPhoto: './photo/korton/korton_2.jpg',
   },
   {
     id: 'rev-3',
@@ -46,7 +49,8 @@ export const REVIEWS: ReviewItem[] = [
     service: 'Оклейка ударной части + тонировка хамелеон',
     text: 'Ребята работают отлично. Обтянули всю морду и сделали тонировку на лобовое хамелеон + атермалку на передние боковые. Качество работы на 10 из 10. По срокам как обещали и с запасом. Ценник более чем адекватный. Крайне рекомендую.',
     avatarLetter: 'В',
-    carPhoto: './photo/korton/korton_7.jpg',
+    carPhoto: 'https://avatars.mds.yandex.net/get-altay/18101536/2a0000019cb27e41b5069132aa189c214db0/L_height',
+    localPhoto: './photo/korton/korton_7.jpg',
   },
   {
     id: 'rev-4',
@@ -58,7 +62,8 @@ export const REVIEWS: ReviewItem[] = [
     service: 'Защитная пленка зон риска и тонировка',
     text: 'Обратился по поводу закатки защитной пленкой всех зон риска. Всё сделали быстро и качественно, ребята мастера своего дела и доброжелательные. Теперь буду обслуживаться здесь. Сделаю ещё тонер «хамелеон». На соседней машине делали, мне понравилось, очень красиво!',
     avatarLetter: 'Д',
-    carPhoto: './photo/korton/korton_3.jpg',
+    carPhoto: 'https://avatars.mds.yandex.net/get-altay/14813057/2a00000195d161d881242187243bceb41612/L_height',
+    localPhoto: './photo/korton/korton_3.jpg',
   },
   {
     id: 'rev-5',
@@ -70,7 +75,8 @@ export const REVIEWS: ReviewItem[] = [
     service: 'Антикор, тонировка, керамика и зоны риска',
     text: 'Поехал по рекомендации… Делал антикор, тонировку, покрытие керамикой, зоны риска. Сделали ребята от души. По цене договориться можно и прийти к общему знаменателю, не завышают ценник. Профессионалы!',
     avatarLetter: 'А',
-    carPhoto: './photo/korton/korton_4.jpg',
+    carPhoto: 'https://avatars.mds.yandex.net/get-altay/15417312/2a00000196d84efeab71205f951868b3f658/L_height',
+    localPhoto: './photo/korton/korton_4.jpg',
   },
   {
     id: 'rev-6',
@@ -82,6 +88,7 @@ export const REVIEWS: ReviewItem[] = [
     service: 'Комплексный детейлинг и оклейка',
     text: 'Всем привет! В данном месте не первый раз! Хочу поблагодарить ребят за их профессионализм, чёткость, выразить огромное спасибо за качественно выполненные работы, за советы и рекомендации, за индивидуальный подход к клиентам, очень всё нравится!',
     avatarLetter: 'В',
-    carPhoto: './photo/korton/korton_5.jpg',
+    carPhoto: 'https://avatars.mds.yandex.net/get-altay/15289836/2a00000196d8448393adf981bf666951b99b/L_height',
+    localPhoto: './photo/korton/korton_5.jpg',
   },
 ];

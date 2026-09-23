@@ -58,6 +58,13 @@ export const Services: React.FC<ServicesProps> = ({ onSelectService, onOpenBooki
                 <img
                   src={service.image}
                   alt={service.title}
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    if (!target.dataset.triedLocal && service.localImage) {
+                      target.dataset.triedLocal = 'true';
+                      target.src = service.localImage;
+                    }
+                  }}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100 transform-gpu will-change-transform block"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/20 to-transparent pointer-events-none" />

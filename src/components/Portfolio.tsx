@@ -8,6 +8,7 @@ interface PortfolioItem {
   category: 'film' | 'tinting' | 'detailing' | 'protection' | 'sound';
   tag: string;
   image: string;
+  localImage?: string;
   desc: string;
 }
 
@@ -18,7 +19,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Geely Monjaro',
     category: 'film',
     tag: 'Зоны риска',
-    image: './photo/korton/korton_2.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/17677530/2a0000019ddd6382a85a6dc9281df6712699/L_height',
+    localImage: './photo/korton/korton_2.jpg',
     desc: 'Надежная защита передней ударной части кузова самовосстанавливающимся полиуретаном толщиной 200 мкм с глубоким подворотом всех кромок.',
   },
   {
@@ -27,7 +29,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Премиальный кроссовер',
     category: 'tinting',
     tag: 'Тонировка по ГОСТ',
-    image: './photo/korton/korton_1.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/19539707/2a0000019ddd63dc11ae6fa05b0ed1440e3a/L_height',
+    localImage: './photo/korton/korton_1.jpg',
     desc: 'Качественная тонировка задней полусферы американской металлизированной пленкой: защита от выгорания салона, без пыли и пузырей.',
   },
   {
@@ -36,7 +39,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Городской седан',
     category: 'tinting',
     tag: 'Тонер Хамелеон',
-    image: './photo/korton/korton_7.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/18101536/2a0000019cb27e41b5069132aa189c214db0/L_height',
+    localImage: './photo/korton/korton_7.jpg',
     desc: 'Защита от нагрева и палящего солнца специальной атермальной пленкой и стильным затемнением с фиолетовым переливом.',
   },
   {
@@ -45,7 +49,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Внедорожник SUV',
     category: 'detailing',
     tag: 'Керамика 9H',
-    image: './photo/korton/korton_4.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/15417312/2a00000196d84efeab71205f951868b3f658/L_height',
+    localImage: './photo/korton/korton_4.jpg',
     desc: 'Многоэтапное удаление царапин и паутинки, зеркальный карамельный блеск кузова и мощная гидрофобная защита от грязи.',
   },
   {
@@ -54,7 +59,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Новый автомобиль',
     category: 'film',
     tag: 'Полная броня',
-    image: './photo/korton/korton_3.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/14813057/2a00000195d161d881242187243bceb41612/L_height',
+    localImage: './photo/korton/korton_3.jpg',
     desc: 'Комплексная консервация заводского лака глянцевым полиуретаном. Машина защищена от гравия, веток и химии на долгие годы.',
   },
   {
@@ -63,7 +69,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Интерьер автомобиля',
     category: 'detailing',
     tag: 'Химчистка & Озон',
-    image: './photo/korton/korton_5.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/15289836/2a00000196d8448393adf981bf666951b99b/L_height',
+    localImage: './photo/korton/korton_5.jpg',
     desc: 'Полная деликатная чистка сидений, ковролина, пластика и потолка гипоаллергенной премиум-химией с устранением запахов.',
   },
   {
@@ -72,7 +79,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Салон и двери',
     category: 'sound',
     tag: 'Шумоизоляция',
-    image: './photo/korton/korton_6.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/16341471/2a0000019cb27f0849a5ac6dcd7541676e2c/L_height',
+    localImage: './photo/korton/korton_6.jpg',
     desc: 'Снижение дорожного гула и вибраций в салоне на 70%, многослойные вибродемпферы и звукопоглотители Comfortmat.',
   },
   {
@@ -81,7 +89,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Защита днища',
     category: 'sound',
     tag: 'Антикор',
-    image: './photo/korton/korton_8.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/15457874/2a000001963845c45dc418061bb83885fafe/L_height',
+    localImage: './photo/korton/korton_8.jpg',
     desc: 'Надежная консервация скрытых полостей, порогов и днища специализированными составами для защиты от соли и реагентов.',
   },
   {
@@ -90,7 +99,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Black Edition',
     category: 'protection',
     tag: 'Антихром',
-    image: './photo/korton/korton_9.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/19082209/2a0000019cc1df0f1b3dbfef7996a846bade/L_height',
+    localImage: './photo/korton/korton_9.jpg',
     desc: 'Оклейка хромированных элементов в глубокий черный глянец: защита от помутнения и стильный спортивный силуэт.',
   },
   {
@@ -99,7 +109,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Оптика автомобиля',
     category: 'protection',
     tag: 'Бронь фар',
-    image: './photo/korton/korton_10.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/18141736/2a0000019cb27d2b7d152604308de12b179f/L_height',
+    localImage: './photo/korton/korton_10.jpg',
     desc: 'Восстановление прозрачности фар и последующая оклейка самозатягивающимся полиуретаном для защиты от камней.',
   },
   {
@@ -108,7 +119,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Кроссовер',
     category: 'film',
     tag: 'Skinxars PPF',
-    image: './photo/korton/korton_gallery_1.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/17677530/2a0000019ddd6382a85a6dc9281df6712699/L_height',
+    localImage: './photo/korton/korton_2.jpg',
     desc: 'Оклейка наиболее нагруженных деталей кузова самовосстанавливающейся пленкой с идеальной оптической гладкостью.',
   },
   {
@@ -117,7 +129,8 @@ const PORTFOLIO_ITEMS: PortfolioItem[] = [
     car: 'Бизнес-седан',
     category: 'detailing',
     tag: 'Детейлинг под ключ',
-    image: './photo/korton/korton_gallery_2.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/15417312/2a00000196d84efeab71205f951868b3f658/L_height',
+    localImage: './photo/korton/korton_4.jpg',
     desc: 'Химчистка, полировка кузова, гидрофобное покрытие стекол «антидождь» и тонирование задней полусферы.',
   },
 ];
@@ -132,6 +145,7 @@ interface StudioZone {
   equipment: string[];
   badges: string[];
   image: string;
+  localImage?: string;
 }
 
 const STUDIO_ZONES: StudioZone[] = [
@@ -144,7 +158,8 @@ const STUDIO_ZONES: StudioZone[] = [
     desc: 'Специализированный бокс студии «КорТон» с ярким инспекционным светом и контролируемой температурой для безупречной адгезии полиуретановых пленок.',
     equipment: ['Инспекционный свет 5500K', 'Профессиональные тепловые фены', 'Обеспыленный чистый бокс'],
     badges: ['Полиуретан 200 мкм', 'Без пыли и пузырей', 'Официальная гарантия'],
-    image: './photo/korton/korton_1.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/19539707/2a0000019ddd63dc11ae6fa05b0ed1440e3a/L_height',
+    localImage: './photo/korton/korton_1.jpg',
   },
   {
     id: 'zone-tint',
@@ -155,7 +170,8 @@ const STUDIO_ZONES: StudioZone[] = [
     desc: 'Стенды с оригинальными рулонами пленки, стол раскроя и профессиональный инструмент для тонирования стекол и бронирования оптики.',
     equipment: ['Премиальные пленки по ГОСТ', 'Раскроечные столы', 'Высокоточная термоформовка'],
     badges: ['Защита от нагрева', 'Хамелеон & Атермалка', 'Ювелирный подворот'],
-    image: './photo/korton/korton_7.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/18101536/2a0000019cb27e41b5069132aa189c214db0/L_height',
+    localImage: './photo/korton/korton_7.jpg',
   },
   {
     id: 'zone-detailing',
@@ -166,7 +182,8 @@ const STUDIO_ZONES: StudioZone[] = [
     desc: 'Многоэтапная полировка лака, нанесение керамических составов 9H, профессиональная экстракторная химчистка салона и озонирование.',
     equipment: ['Полировальные машинки Rupes', 'Экстракторы и торнадоры', 'Озонаторы воздуха'],
     badges: ['Керамика 9H', 'Гипоаллергенно', 'Зеркальный глянец'],
-    image: './photo/korton/korton_4.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/15417312/2a00000196d84efeab71205f951868b3f658/L_height',
+    localImage: './photo/korton/korton_4.jpg',
   },
   {
     id: 'zone-exterior',
@@ -177,7 +194,8 @@ const STUDIO_ZONES: StudioZone[] = [
     desc: 'Студия расположена в Королёве (Юбилейный). Закрытая охраняемая территория, удобная парковка и комфортная зона для клиентов.',
     equipment: ['г. Королёв, ул. М.К. Тихонравова, 4Б', 'Охраняемая парковка', 'Пн–Сб 09:00–19:00'],
     badges: ['Рейтинг 5.0 ★ Яндекс Карты', 'Удобный заезд', '125+ отзывов'],
-    image: './photo/korton/korton_3.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/14813057/2a00000195d161d881242187243bceb41612/L_height',
+    localImage: './photo/korton/korton_3.jpg',
   },
 ];
 
@@ -287,6 +305,13 @@ export const Portfolio: React.FC = () => {
                     <img
                       src={curZone.image}
                       alt={curZone.title}
+                      onError={(e) => {
+                        const target = e.currentTarget;
+                        if (!target.dataset.triedLocal && curZone.localImage) {
+                          target.dataset.triedLocal = 'true';
+                          target.src = curZone.localImage;
+                        }
+                      }}
                       className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-transparent to-transparent lg:hidden" />
@@ -417,6 +442,13 @@ export const Portfolio: React.FC = () => {
                   <img
                     src={item.image}
                     alt={item.title}
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      if (!target.dataset.triedLocal && item.localImage) {
+                        target.dataset.triedLocal = 'true';
+                        target.src = item.localImage;
+                      }
+                    }}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-85 group-hover:opacity-100"
                   />
                   <span className="absolute top-4 left-4 px-3 py-1 rounded-full bg-black/75 backdrop-blur text-xs text-white border border-white/10 lowercase shadow">

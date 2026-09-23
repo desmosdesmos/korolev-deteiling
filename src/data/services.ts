@@ -9,6 +9,7 @@ export interface ServiceItem {
   badge?: string;
   features: string[];
   image: string;
+  localImage?: string;
 }
 
 export const CATEGORIES = [
@@ -36,7 +37,8 @@ export const SERVICES: ServiceItem[] = [
       'Идеальная чистота без пылинок и пузырей',
       'Гарантия на выгорание и отслоение пленки'
     ],
-    image: './photo/korton/korton_1.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/19539707/2a0000019ddd63dc11ae6fa05b0ed1440e3a/L_height',
+    localImage: './photo/korton/korton_1.jpg',
   },
   {
     id: 'film-risk',
@@ -53,7 +55,8 @@ export const SERVICES: ServiceItem[] = [
       '100% защита от камней на скорости',
       'Сохранение заводского лакокрасочного покрытия'
     ],
-    image: './photo/korton/korton_2.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/17677530/2a0000019ddd6382a85a6dc9281df6712699/L_height',
+    localImage: './photo/korton/korton_2.jpg',
   },
   {
     id: 'film-full',
@@ -70,7 +73,8 @@ export const SERVICES: ServiceItem[] = [
       'Сохранение максимальной стоимости при перепродаже',
       'Срок службы пленки до 7-10 лет'
     ],
-    image: './photo/korton/korton_3.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/14813057/2a00000195d161d881242187243bceb41612/L_height',
+    localImage: './photo/korton/korton_3.jpg',
   },
   {
     id: 'detailing-polishing',
@@ -87,7 +91,8 @@ export const SERVICES: ServiceItem[] = [
       'Защитное керамическое покрытие 9H',
       'Мощный гидрофоб и защита от дорожной грязи'
     ],
-    image: './photo/korton/korton_4.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/15417312/2a00000196d84efeab71205f951868b3f658/L_height',
+    localImage: './photo/korton/korton_4.jpg',
   },
   {
     id: 'interior-cleaning',
@@ -104,7 +109,8 @@ export const SERVICES: ServiceItem[] = [
       'Антибактериальное озонирование салона',
       'Полная сушка салона перед выдачей'
     ],
-    image: './photo/korton/korton_5.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/15289836/2a00000196d8448393adf981bf666951b99b/L_height',
+    localImage: './photo/korton/korton_5.jpg',
   },
   {
     id: 'soundproofing',
@@ -120,7 +126,8 @@ export const SERVICES: ServiceItem[] = [
       'Тишина в салоне даже на высоких скоростях',
       'Устранение скрипов и сверчков интерьера'
     ],
-    image: './photo/korton/korton_6.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/16341471/2a0000019cb27f0849a5ac6dcd7541676e2c/L_height',
+    localImage: './photo/korton/korton_6.jpg',
   },
   {
     id: 'headlight-protection',
@@ -136,7 +143,8 @@ export const SERVICES: ServiceItem[] = [
       'Опция тонирования оптики темным полиуретаном',
       'Срок службы покрытия до 5 лет'
     ],
-    image: './photo/korton/korton_7.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/18101536/2a0000019cb27e41b5069132aa189c214db0/L_height',
+    localImage: './photo/korton/korton_7.jpg',
   },
   {
     id: 'anticor',
@@ -152,7 +160,8 @@ export const SERVICES: ServiceItem[] = [
       'Стойкость к агрессивным реагентам',
       'Дополнительный эффект шумопоглощения'
     ],
-    image: './photo/korton/korton_8.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/15457874/2a000001963845c45dc418061bb83885fafe/L_height',
+    localImage: './photo/korton/korton_8.jpg',
   },
   {
     id: 'antichrome-styling',
@@ -168,6 +177,7 @@ export const SERVICES: ServiceItem[] = [
       'Ювелирная подрезка по зазорам',
       'При желании легко возвращается в сток'
     ],
-    image: './photo/korton/korton_9.jpg',
+    image: 'https://avatars.mds.yandex.net/get-altay/19082209/2a0000019cc1df0f1b3dbfef7996a846bade/L_height',
+    localImage: './photo/korton/korton_9.jpg',
   },
 ];
