@@ -1139,12 +1139,21 @@
               <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/15 text-[10px] font-['Unbounded'] font-bold text-neutral-300 uppercase tracking-widest mb-3">
                 <span>Базовая услуга студии</span>
               </div>
-              <h3 class="font-['Unbounded'] text-xl sm:text-2xl md:text-3xl font-extrabold text-white tracking-tight uppercase leading-snug">
+              <h3 class="font-['Unbounded'] text-xl sm:text-2xl md:text-3xl font-extrabold text-white tracking-tight uppercase leading-snug mb-3">
                 МОЙКА АВТОМОБИЛЯ <span class="text-white">«СТАНДАРТ» II ФАЗНАЯ</span>
               </h3>
-              <p class="text-xs sm:text-sm text-neutral-300 font-normal mt-2.5 leading-relaxed">
-                1. Бесконтактная мойка кузова. 2. Ручная мойка шампунем, коврики, пороги, колесные арки, продувка сжатым воздухом.
-              </p>
+              
+              <!-- Clean Step Badges -->
+              <div class="space-y-2 mt-3">
+                <div class="flex items-start gap-2.5 p-2 rounded-xl bg-white/[0.04] border border-white/10">
+                  <span class="w-5 h-5 rounded-md bg-white/15 text-white flex items-center justify-center text-[11px] font-['Unbounded'] font-bold shrink-0 mt-0.5">1</span>
+                  <span class="text-xs sm:text-sm text-neutral-200 font-medium leading-relaxed">Бесконтактная мойка кузова.</span>
+                </div>
+                <div class="flex items-start gap-2.5 p-2 rounded-xl bg-white/[0.04] border border-white/10">
+                  <span class="w-5 h-5 rounded-md bg-white/15 text-white flex items-center justify-center text-[11px] font-['Unbounded'] font-bold shrink-0 mt-0.5">2</span>
+                  <span class="text-xs sm:text-sm text-neutral-200 font-medium leading-relaxed">Ручная мойка шампунем, коврики, пороги, колесные арки, продувка сжатым воздухом.</span>
+                </div>
+              </div>
             </div>
             
             <!-- Floating Liquid Glass Booking Capsule -->
@@ -1164,9 +1173,22 @@
           </div>
         </div>
 
-        <!-- Category Filters -->
-        <div class="flex items-center gap-2 overflow-x-auto pb-4 mb-8 scrollbar-none" id="servicesCategories">
-          <!-- Injected via JS -->
+        <!-- Category Filters Slider with Navigation Arrows -->
+        <div class="relative mb-8 flex items-center gap-2">
+          <!-- Left Arrow -->
+          <button type="button" onclick="scrollCatSlider('servicesCategories', -240)" aria-label="Назад по категориям" class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/10 hover:bg-white text-neutral-200 hover:text-black border border-white/20 shadow-lg flex items-center justify-center transition-all cursor-pointer backdrop-blur-md active:scale-95 shrink-0">
+            <svg class="w-4 h-4 fill-none stroke-current" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          
+          <!-- Category Pills Track -->
+          <div class="flex-1 flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none scroll-smooth px-1" id="servicesCategories">
+            <!-- Injected via JS -->
+          </div>
+
+          <!-- Right Arrow -->
+          <button type="button" onclick="scrollCatSlider('servicesCategories', 240)" aria-label="Вперед по категориям" class="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/10 hover:bg-white text-neutral-200 hover:text-black border border-white/20 shadow-lg flex items-center justify-center transition-all cursor-pointer backdrop-blur-md active:scale-95 shrink-0">
+            <svg class="w-4 h-4 fill-none stroke-current" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
         </div>
 
         <!-- Grid of Cards (Visual Catalog) -->
@@ -1231,26 +1253,28 @@
                   <!-- Injected via JS -->
                 </div>
 
-                <!-- Кнопка "ДОПЫ" (Открывает полноэкранное меню опций как книгу) -->
+                <!-- Кнопка "ДОПЫ" (Открывает полноэкранное меню опций как слайдер/каталог) -->
                 <div class="pt-4 border-t border-white/10 mt-4">
-                  <button type="button" onclick="openAddonsModal()" class="w-full p-4 rounded-2xl bg-gradient-to-r from-white/[0.08] to-white/[0.03] hover:from-white/[0.14] hover:to-white/[0.07] border border-white/15 hover:border-white/30 text-white transition-all flex items-center justify-between group cursor-pointer shadow-lg active:scale-[0.99]">
+                  <button type="button" onclick="openAddonsModal()" class="w-full p-4 rounded-2xl bg-gradient-to-r from-white/[0.1] via-white/[0.05] to-white/[0.08] hover:from-white/[0.16] hover:to-white/[0.12] border border-white/20 hover:border-white/40 text-white transition-all flex items-center justify-between group cursor-pointer shadow-[0_8px_30px_rgba(0,0,0,0.6)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.08)] active:scale-[0.99]">
                     <div class="flex items-center gap-3.5">
-                      <div class="w-9 h-9 rounded-xl bg-white/10 group-hover:bg-white group-hover:text-black flex items-center justify-center text-white transition-all font-['Unbounded'] font-bold text-base shadow-sm shrink-0">
+                      <div class="w-10 h-10 rounded-xl bg-white/15 group-hover:bg-white group-hover:text-black flex items-center justify-center text-white transition-all font-['Unbounded'] font-bold text-lg shadow-sm shrink-0 border border-white/20">
                         +
                       </div>
                       <div class="text-left">
                         <div class="font-['Unbounded'] text-xs sm:text-sm font-bold uppercase tracking-tight text-white flex items-center gap-2">
                           <span>Дополнительные опции</span>
-                          <span id="addonsCountBadge" class="hidden px-2 py-0.5 rounded-full bg-white text-black text-[9px] font-black">0</span>
+                          <span id="addonsCountBadge" class="hidden px-2 py-0.5 rounded-full bg-white text-black text-[9px] font-black shadow-sm">0</span>
                         </div>
-                        <div class="text-[11px] text-neutral-400 font-sans mt-0.5" id="addonsBtnSubtitle">
+                        <div class="text-[11px] text-neutral-300 font-sans mt-0.5" id="addonsBtnSubtitle">
                           Нажмите, чтобы открыть меню с допами на весь экран
                         </div>
                       </div>
                     </div>
-                    <div class="flex items-center gap-1.5 pl-2">
-                      <span class="text-[10px] uppercase font-['Unbounded'] tracking-wider text-neutral-400 group-hover:text-white transition-colors hidden sm:inline">Открыть</span>
-                      <svg class="w-4 h-4 text-neutral-400 group-hover:text-white group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+                    <div class="flex items-center gap-2 pl-2">
+                      <span class="text-[10px] uppercase font-['Unbounded'] tracking-wider text-neutral-300 group-hover:text-white transition-colors hidden sm:inline font-bold">Каталог</span>
+                      <div class="w-8 h-8 rounded-full bg-white/10 group-hover:bg-white group-hover:text-black border border-white/20 flex items-center justify-center transition-all">
+                        <svg class="w-4 h-4 text-neutral-200 group-hover:text-black group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+                      </div>
                     </div>
                   </button>
 
@@ -1878,9 +1902,22 @@
         </button>
       </div>
 
-      <!-- Categories Filter Tabs -->
-      <div class="px-3 sm:px-8 py-2.5 sm:py-3 border-b border-white/10 shrink-0 bg-[#04060b] flex items-center gap-1.5 sm:gap-2 overflow-x-auto scrollbar-none" id="calcModalFilterTabs">
-        <!-- Rendered via JS -->
+      <!-- Categories Filter Tabs Slider with Navigation Arrows -->
+      <div class="relative px-2 sm:px-8 py-2 sm:py-3 border-b border-white/10 shrink-0 bg-[#04060b] flex items-center gap-2">
+        <!-- Left Arrow -->
+        <button type="button" onclick="scrollCatSlider('calcModalFilterTabs', -220)" aria-label="Листать разделы назад" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-white/10 hover:bg-white text-neutral-200 hover:text-black border border-white/20 shadow-md flex items-center justify-center transition-all cursor-pointer backdrop-blur-md active:scale-95 shrink-0">
+          <svg class="w-3.5 h-3.5 fill-none stroke-current" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+
+        <!-- Tabs Track -->
+        <div class="flex-1 flex items-center gap-1.5 sm:gap-2 overflow-x-auto scrollbar-none scroll-smooth px-1" id="calcModalFilterTabs">
+          <!-- Rendered via JS -->
+        </div>
+
+        <!-- Right Arrow -->
+        <button type="button" onclick="scrollCatSlider('calcModalFilterTabs', 220)" aria-label="Листать разделы вперед" class="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-white/10 hover:bg-white text-neutral-200 hover:text-black border border-white/20 shadow-md flex items-center justify-center transition-all cursor-pointer backdrop-blur-md active:scale-95 shrink-0">
+          <svg class="w-3.5 h-3.5 fill-none stroke-current" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
       </div>
 
       <!-- Scrollable Grid of Addons -->
@@ -3423,6 +3460,74 @@ const PORTFOLIO_ITEMS = [
       }
     }
 
+    // Format Service Description into clean layout
+    function formatServiceDescription(text) {
+      if (!text) return '';
+      if (/^\d+\./.test(text.trim())) {
+        const parts = text.split(/(?=\b\d+\.\s+)/).map(p => p.trim()).filter(Boolean);
+        let itemsHtml = '';
+        let extraText = '';
+
+        parts.forEach(part => {
+          const m = part.match(/^(\d+)\.\s+(.*)/s);
+          if (m) {
+            const num = m[1];
+            let body = m[2].trim();
+            const noteMatch = body.match(/^(.*?)(\s*\(При особых.*|\s*Включает:.*)$/s);
+            if (noteMatch) {
+              itemsHtml += `
+                <div class="flex items-start gap-2.5 p-2 rounded-xl bg-white/[0.03] border border-white/10">
+                  <span class="w-5 h-5 rounded-md bg-white/15 text-white flex items-center justify-center text-[10px] font-['Unbounded'] font-bold shrink-0 mt-0.5">${num}</span>
+                  <span class="text-xs sm:text-[13px] text-neutral-200 leading-relaxed font-normal">${noteMatch[1].trim()}</span>
+                </div>
+              `;
+              extraText += ' ' + noteMatch[2].trim();
+            } else {
+              itemsHtml += `
+                <div class="flex items-start gap-2.5 p-2 rounded-xl bg-white/[0.03] border border-white/10">
+                  <span class="w-5 h-5 rounded-md bg-white/15 text-white flex items-center justify-center text-[10px] font-['Unbounded'] font-bold shrink-0 mt-0.5">${num}</span>
+                  <span class="text-xs sm:text-[13px] text-neutral-200 leading-relaxed font-normal">${body}</span>
+                </div>
+              `;
+            }
+          } else {
+            extraText += ' ' + part;
+          }
+        });
+
+        extraText = extraText.trim();
+        let extraHtml = '';
+        if (extraText) {
+          extraHtml = `
+            <div class="mt-2.5 p-2.5 rounded-xl bg-white/[0.02] border border-white/5 text-[11px] sm:text-xs text-neutral-300 leading-relaxed italic">
+              ${extraText}
+            </div>
+          `;
+        }
+
+        return `
+          <div class="space-y-2 mb-4">
+            ${itemsHtml}
+            ${extraHtml}
+          </div>
+        `;
+      }
+
+      return `
+        <div class="p-3 rounded-xl bg-white/[0.03] border border-white/10 text-xs sm:text-[13px] text-neutral-200 font-normal leading-relaxed mb-4">
+          ${text}
+        </div>
+      `;
+    }
+
+    // Slider scroll helper
+    function scrollCatSlider(containerId, offset) {
+      const container = document.getElementById(containerId);
+      if (container) {
+        container.scrollBy({ left: offset, behavior: 'smooth' });
+      }
+    }
+
     // C) Services Component
     let activeCategory = 'all';
 
@@ -3434,10 +3539,10 @@ const PORTFOLIO_ITEMS = [
         CATEGORIES.forEach(c => {
           const btn = document.createElement('button');
           const isActive = c.id === activeCategory;
-          btn.className = `px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full text-xs font-semibold tracking-wider uppercase soft-btn whitespace-nowrap cursor-pointer ${
+          btn.className = `px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full text-xs font-semibold tracking-wider uppercase soft-btn whitespace-nowrap cursor-pointer transition-all ${
             isActive 
-              ? 'bg-white text-black shadow-lg shadow-white/10 font-bold' 
-              : 'bg-white/[0.05] hover:bg-white/10 text-neutral-300 hover:text-white border border-white/10 backdrop-blur-md'
+              ? 'bg-white text-black shadow-lg shadow-white/15 font-bold scale-[1.02]' 
+              : 'bg-white/[0.05] hover:bg-white/15 text-neutral-300 hover:text-white border border-white/10 backdrop-blur-md'
           }`;
           btn.textContent = c.label;
           btn.onclick = () => { activeCategory = c.id; renderServices(); };
@@ -3455,11 +3560,7 @@ const PORTFOLIO_ITEMS = [
           const card = document.createElement('div');
           card.className = "group relative bg-[#06080e]/95 backdrop-blur-2xl rounded-2xl sm:rounded-3xl border border-white/10 hover:border-white/35 soft-card overflow-hidden flex flex-col justify-between";
 
-          const tagsHtml = (item.tags || []).map(t => `
-            <span class="inline-flex items-center px-2.5 py-1 rounded-md bg-white/[0.05] border border-white/10 text-neutral-300 text-[11px] font-medium">
-              ${t}
-            </span>
-          `).join('');
+          const descContentHtml = formatServiceDescription(item.shortDesc);
 
           card.innerHTML = `
             <!-- Image Top Seamless Container -->
@@ -3477,21 +3578,16 @@ const PORTFOLIO_ITEMS = [
             <!-- Content Block -->
             <div class="p-5 sm:p-7 flex-1 flex flex-col justify-between">
               <div>
-                <h3 class="font-['Unbounded'] text-base sm:text-lg font-bold text-white tracking-tight mb-2.5 group-hover:text-neutral-200 transition-colors uppercase leading-snug flex items-center">
+                <h3 class="font-['Unbounded'] text-base sm:text-lg font-bold text-white tracking-tight mb-3 group-hover:text-neutral-200 transition-colors uppercase leading-snug flex items-center">
                   ${item.title}
                 </h3>
-                <p class="text-xs sm:text-sm text-neutral-300/90 font-normal leading-relaxed mb-4">
-                  ${item.shortDesc}
-                </p>
-                <div class="flex flex-wrap gap-1.5 mb-6">
-                  ${tagsHtml}
-                </div>
+                ${descContentHtml}
               </div>
 
               <!-- Bottom Price & CTA -->
               <div class="pt-4 border-t border-white/10 flex items-center justify-between gap-3 mt-auto">
                 <div>
-                  <span class="font-['Unbounded'] text-[10px] text-neutral-400 uppercase tracking-widest block font-medium">стоимость</span>
+                  <span class="font-['Unbounded'] text-[10px] text-neutral-400 uppercase tracking-widest block font-medium">Стоимость</span>
                   <span class="font-['Unbounded'] text-xl sm:text-2xl font-bold tracking-tight text-white whitespace-nowrap">от ${item.priceFrom.toLocaleString('ru-RU')} ₽</span>
                   <span class="text-[11px] text-neutral-400 block font-normal">включая химию & сушку</span>
                 </div>
@@ -3591,11 +3687,9 @@ const PORTFOLIO_ITEMS = [
           { id: 'all', label: 'Все допы' },
           { id: 'Мойка и уборка', label: 'Мойка и уборка' },
           { id: 'Дополнительные услуги', label: 'Доп. услуги' },
-          { id: 'Детали экстерьера', label: 'Экстерьер' },
-          { id: 'Восстановительная полировка', label: 'Полировка' },
-          { id: 'Защитные покрытия', label: 'Покрытия' },
+          { id: 'Полировка и покрытия', label: 'Полировка и покрытия' },
           { id: 'Антидождь', label: 'Антидождь' },
-          { id: 'Химчистка салона', label: 'Химчистка' }
+          { id: 'Химчистка салона', label: 'Химчистка салона' }
         ];
         cats.forEach(c => {
           const btn = document.createElement('button');
