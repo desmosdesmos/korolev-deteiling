@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="amBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d18"/>
+      <stop offset="100%" stop-color="#020409"/>
+    </linearGradient>
+    <linearGradient id="amAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="amRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Circular Base with High Contrast Automotive Bezel -->
+  <rect width="128" height="128" rx="28" fill="url(#amBg)"/>
+  <rect x="2" y="2" width="124" height="124" rx="26" stroke="url(#amRing)" stroke-width="2.5"/>
+
+  <!-- Dynamic Aerodynamic Crest / Car Hood Wings (Letter A & M Geometry) -->
+  <!-- Outer Wings (M shape silhouette) -->
+  <path d="M26 88 L46 40 L64 68 L82 40 L102 88 L88 88 L76 58 L64 78 L52 58 L40 88 Z" fill="url(#amAccent)" filter="url(#neonGlow)"/>
+
+  <!-- Central Apex (Letter A arrow) -->
+  <polygon points="64,28 73,48 55,48" fill="#ffffff" filter="url(#neonGlow)"/>
+  <rect x="56" y="52" width="16" height="4" rx="2" fill="#38bdf8"/>
+
+  <!-- High-gloss reflection dot -->
+  <circle cx="64" cy="98" r="3.5" fill="#34d399"/>
+</svg>
