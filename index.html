@@ -3738,15 +3738,21 @@ const PORTFOLIO_ITEMS = [
                 ${item.desc}
               </p>
             </div>
-            <div class="pt-3 border-t border-white/10 mt-2 flex items-center justify-between">
+                        <div class="pt-3 border-t border-white/10 mt-2 flex items-center justify-between gap-3">
               <div>
                 <span class="text-[10px] text-neutral-400 uppercase font-['Unbounded'] font-medium block">Стоимость</span>
                 ${item.prices.cat1 !== item.prices.cat3 ? `
-                  <span class="text-[10px] text-neutral-300 font-sans font-medium block mt-0.5">В прайсе: ${item.prices.cat1.toLocaleString('ru-RU')} / ${item.prices.cat3.toLocaleString('ru-RU')} ₽ (легк. / SUV)</span>
-                ` : ''}
+                  <span class="text-[11px] text-neutral-300 font-sans font-medium block mt-0.5">Легковые / Внедорожники</span>
+                ` : `
+                  <span class="text-[11px] text-neutral-400 font-sans block mt-0.5">Все категории</span>
+                `}
               </div>
-              <div class="font-['Unbounded'] text-sm sm:text-base font-black text-white whitespace-nowrap px-3 py-1 rounded-xl bg-white/10 border border-white/15">
-                ${price.toLocaleString('ru-RU')}&nbsp;₽
+              <div class="text-right">
+                <div class="font-['Unbounded'] text-sm sm:text-base font-black text-white whitespace-nowrap px-3 py-1 rounded-xl bg-white/10 border border-white/15">
+                  ${item.prices.cat1 !== item.prices.cat3 
+                    ? `${item.prices.cat1.toLocaleString('ru-RU')} / ${item.prices.cat3.toLocaleString('ru-RU')}&nbsp;₽`
+                    : `${price.toLocaleString('ru-RU')}&nbsp;₽`}
+                </div>
               </div>
             </div>
           `;
