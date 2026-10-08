@@ -1,0 +1,34 @@
+# robots.txt for https://avto-maniya.ru/
+User-agent: Yandex
+Allow: /
+Allow: /assets/
+Allow: /photo/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+Allow: /*.webp
+Disallow: /scratch/
+Clean-param: ym_debug&_openstat
+
+User-agent: Googlebot
+Allow: /
+Allow: /assets/
+Allow: /photo/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+Allow: /*.webp
+Disallow: /scratch/
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /photo/
+Disallow: /scratch/
+
+Host: https://avto-maniya.ru
+Sitemap: https://avto-maniya.ru/sitemap.xml
