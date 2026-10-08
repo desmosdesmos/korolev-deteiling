@@ -1427,12 +1427,12 @@
             <!-- Quick Route Selector with Interactive Switcher -->
             <div class="p-6 sm:p-7 rounded-3xl bg-[#0c0f17]/95 border border-white/15 backdrop-blur-2xl shadow-2xl flex-1 flex flex-col justify-between">
               <div>
-                <div class="flex flex-wrap items-center justify-between gap-3 mb-5">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-5">
                   <span class="font-['Unbounded'] text-xs font-bold text-white uppercase tracking-wider">Навигация по маршруту</span>
-                  <div class="flex items-center gap-1.5 p-1 bg-white/5 rounded-full border border-white/10" id="routeTabs">
-                    <button type="button" onclick="selectRouteTab('car')" id="tabBtnCar" class="px-3 py-1 rounded-full text-[11px] font-['Unbounded'] font-bold uppercase transition-all bg-white text-black shadow-sm">Автомобиль</button>
-                    <button type="button" onclick="selectRouteTab('metro')" id="tabBtnMetro" class="px-3 py-1 rounded-full text-[11px] font-['Unbounded'] font-bold uppercase transition-all text-neutral-300 hover:text-white">Метро / Пешком</button>
-                    <button type="button" onclick="selectRouteTab('lounge')" id="tabBtnLounge" class="px-3 py-1 rounded-full text-[11px] font-['Unbounded'] font-bold uppercase transition-all text-neutral-300 hover:text-white">Lounge</button>
+                  <div class="flex items-center gap-1 p-1 bg-white/5 rounded-full border border-white/10 w-fit max-w-full" id="routeTabs">
+                    <button type="button" onclick="selectRouteTab('car')" id="tabBtnCar" class="px-2.5 sm:px-3 py-1 rounded-full text-[10px] sm:text-[11px] font-['Unbounded'] font-bold uppercase transition-all bg-white text-black shadow-sm whitespace-nowrap">Автомобиль</button>
+                    <button type="button" onclick="selectRouteTab('metro')" id="tabBtnMetro" class="px-2.5 sm:px-3 py-1 rounded-full text-[10px] sm:text-[11px] font-['Unbounded'] font-bold uppercase transition-all text-neutral-300 hover:text-white whitespace-nowrap">Метро</button>
+                    <button type="button" onclick="selectRouteTab('lounge')" id="tabBtnLounge" class="px-2.5 sm:px-3 py-1 rounded-full text-[10px] sm:text-[11px] font-['Unbounded'] font-bold uppercase transition-all text-neutral-300 hover:text-white whitespace-nowrap">Lounge</button>
                   </div>
                 </div>
 
@@ -4282,12 +4282,12 @@ const PORTFOLIO_ITEMS = [
         const content = document.getElementById(`routeContent${t.charAt(0).toUpperCase() + t.slice(1)}`);
         if (t === tab) {
           if (btn) {
-            btn.className = "px-3 py-1 rounded-full text-[11px] font-['Unbounded'] font-bold uppercase transition-all bg-white text-black shadow-sm";
+            btn.className = "px-2.5 sm:px-3 py-1 rounded-full text-[10px] sm:text-[11px] font-['Unbounded'] font-bold uppercase transition-all bg-white text-black shadow-sm whitespace-nowrap";
           }
           if (content) content.classList.remove('hidden');
         } else {
           if (btn) {
-            btn.className = "px-3 py-1 rounded-full text-[11px] font-['Unbounded'] font-bold uppercase transition-all text-neutral-300 hover:text-white";
+            btn.className = "px-2.5 sm:px-3 py-1 rounded-full text-[10px] sm:text-[11px] font-['Unbounded'] font-bold uppercase transition-all text-neutral-300 hover:text-white whitespace-nowrap";
           }
           if (content) content.classList.add('hidden');
         }
